@@ -43,7 +43,11 @@ function playGame() {
 
    }
 
+<<<<<<< HEAD
     for (let i = 0; i < 5; i++) {
+=======
+    for (let i = 0; i < 3; i++) {
+>>>>>>> bc6ddca19aee2e242097edddbae186170a423905
           const humanChoice = getHumanChoice();
           const computerChoice = getComputerChoice();
           (playRound(humanChoice, computerChoice));
