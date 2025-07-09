@@ -1,4 +1,4 @@
-function getComputerChoice() {
+/* function getComputerChoice() {
     const randomNumber = Math.random(); // number between 0 and 1
   
     if (randomNumber < 1 / 3) {
@@ -58,5 +58,23 @@ function playGame() {
         outputDiv.innerHTML += `<p><strong>The game is a tie!</strong></p>`;
      }
 
+} 
+*/
+const button = document.createElement("button");
+button.innerHTML = "Start Game";
+button.setAttribute("onclick", "options()");
+document.body.appendChild(button);
+/*function options(){
+  console.log("Game started")*/
+  
+function options(){
+  console.log("GAME STARTED")
+  console.log("Choose one")
+ const button = document.createElement("button")
+ button.innerHTML = "ROCK";
+ button.addEventListener("click", playGame)
+ document.body.appendChild(button);
+ function playGame(){
+  console.log("ROCK THROWN")
 }
-
+}
