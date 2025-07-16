@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    flex-direction: column; 
+    background-color: #e04848;
+    font-family: Arial, sans-serif;
+}
+
+#buttonsContainer {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
